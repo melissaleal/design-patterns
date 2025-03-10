@@ -1,17 +1,16 @@
-# Os alunos devem implementar o padrão Abstract Factory para criar veículos de diferentes tipos: Terrestres e Aéreos.
-
-# Cada fábrica deve produzir um veículo e um motor compatíveis com o ambiente:
-
-# Crie interfaces abstratas para veículos e motores.
-# Implemente versões concretas para dois tipos de transporte:
-# Terrestres (Carro com Motor a Combustão)
-# Aéreos (Avião com Motor a Jato)
-# Crie uma fábrica abstrata que define a criação de veículos e motores.
-# Implemente fábricas concretas que criam os veículos e motores correspondentes ao meio de transporte.
-# Crie um cliente que utilize a fábrica correta com base no tipo de transporte escolhido.
+# Enunciado:
+    # Os alunos devem implementar o padrão Abstract Factory para criar veículos de diferentes tipos: Terrestres e Aéreos.
+    # Cada fábrica deve produzir um veículo e um motor compatíveis com o ambiente:
+    # Crie interfaces abstratas para veículos e motores.
+    # Implemente versões concretas para dois tipos de transporte:
+        # Terrestres (Carro com Motor a Combustão)
+        # Aéreos (Avião com Motor a Jato)
+    # Crie uma fábrica abstrata que define a criação de veículos e motores.
+    # Implemente fábricas concretas que criam os veículos e motores correspondentes ao meio de transporte.
+    # Crie um cliente que utilize a fábrica correta com base no tipo de transporte escolhido.
 # Desafio Extra:
-# Adicionar um terceiro tipo de transporte Aquático (Barco com Motor Elétrico).
-# Criar um menu interativo para o usuário escolher diferentes modelos de veículos e motores.
+    # Adicionar um terceiro tipo de transporte Aquático (Barco com Motor Elétrico).
+    # Criar um menu interativo para o usuário escolher diferentes modelos de veículos e motores.
 
 from abc import ABC, abstractmethod
 
